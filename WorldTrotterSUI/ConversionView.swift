@@ -53,8 +53,8 @@ struct ConversionView: View {
                 return self.fahrenheitValueText
         }){
             self.fahrenheitValueText = $0
-            if let value = Double($0) {
-                self.fahrenheitValue = Measurement(value: value, unit: .fahrenheit)
+            if let value = self.numberFormatter.number(from:$0) {
+                self.fahrenheitValue = Measurement(value: Double(truncating: value), unit: .fahrenheit)
                 self.validFahrenheitValueText = self.fahrenheitValueText
             } else {
                 if $0 != "" {
