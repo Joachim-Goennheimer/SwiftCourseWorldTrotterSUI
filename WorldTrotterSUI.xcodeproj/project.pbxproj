@@ -15,6 +15,8 @@
 		9A1F4D9C247F9424007C62CE /* WorldTrotterSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1F4D9B247F9424007C62CE /* WorldTrotterSUITests.swift */; };
 		9A1F4DA7247F9424007C62CE /* WorldTrotterSUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1F4DA6247F9424007C62CE /* WorldTrotterSUIUITests.swift */; };
 		9A1F4DB5247F9453007C62CE /* ConversionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1F4DB4247F9453007C62CE /* ConversionView.swift */; };
+		9A1F4DB7247F9D70007C62CE /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1F4DB6247F9D70007C62CE /* MapView.swift */; };
+		9A1F4DB9247F9D7B007C62CE /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1F4DB8247F9D7B007C62CE /* Map.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		9A1F4DA6247F9424007C62CE /* WorldTrotterSUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldTrotterSUIUITests.swift; sourceTree = "<group>"; };
 		9A1F4DA8247F9424007C62CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A1F4DB4247F9453007C62CE /* ConversionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionView.swift; sourceTree = "<group>"; };
+		9A1F4DB6247F9D70007C62CE /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		9A1F4DB8247F9D7B007C62CE /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				9A1F4D92247F9424007C62CE /* Info.plist */,
 				9A1F4D8C247F9424007C62CE /* Preview Content */,
 				9A1F4DB4247F9453007C62CE /* ConversionView.swift */,
+				9A1F4DB6247F9D70007C62CE /* MapView.swift */,
+				9A1F4DB8247F9D7B007C62CE /* Map.swift */,
 			);
 			path = WorldTrotterSUI;
 			sourceTree = "<group>";
@@ -267,7 +273,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A1F4DB9247F9D7B007C62CE /* Map.swift in Sources */,
 				9A1F4DB5247F9453007C62CE /* ConversionView.swift in Sources */,
+				9A1F4DB7247F9D70007C62CE /* MapView.swift in Sources */,
 				9A1F4D85247F941D007C62CE /* AppDelegate.swift in Sources */,
 				9A1F4D87247F941D007C62CE /* SceneDelegate.swift in Sources */,
 			);
