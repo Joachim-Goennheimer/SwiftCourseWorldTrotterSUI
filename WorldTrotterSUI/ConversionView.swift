@@ -28,14 +28,14 @@ struct ConversionView: View {
         }
     }
     
-    var numberFormatter: NumberFormatter {
+    let numberFormatter: NumberFormatter = {
         
         let nf = NumberFormatter()
         nf.numberStyle = .decimal
         nf.minimumFractionDigits = 0
         nf.maximumFractionDigits = 1
         return nf
-    }
+    }()
     
     func updateCelsiusValue() {
     

@@ -1,0 +1,17 @@
+/* 
+  Localizable.strings
+  WorldTrotterSUI
+
+  Created by Joachim Goennheimer on 28.05.20.
+  Copyright © 2020 Joachim Goennheimer. All rights reserved.
+*/
+
+
+"value" = "Wert";
+"degrees Fahrenheit" = "Grad Fahrenheit";
+"is really" = "sind tatsächlich";
+"degrees Celsius" = "Grad Celsius";
+
+"Standard" = "Normal";
+"Hybrid" = "Gemischt";
+"Satellite" = "Satelit";
