@@ -11,6 +11,7 @@ import SwiftUI
 struct ConversionView: View {
     
     @State private var fahrenheitValueText: String = ""
+    @State private var validFahrenheitValueText: String = ""
     @State private var celsiusValueText: String = "???"
     
     @State var fahrenheitValue: Measurement<UnitTemperature>? {
@@ -54,8 +55,14 @@ struct ConversionView: View {
             self.fahrenheitValueText = $0
             if let value = Double($0) {
                 self.fahrenheitValue = Measurement(value: value, unit: .fahrenheit)
+                self.validFahrenheitValueText = self.fahrenheitValueText
             } else {
-                self.fahrenheitValue = nil
+                if $0 != "" {
+                    self.fahrenheitValueText = self.validFahrenheitValueText
+                } else {
+                    self.fahrenheitValue = nil
+                    self.validFahrenheitValueText = $0
+                }
             }
         }
     }
