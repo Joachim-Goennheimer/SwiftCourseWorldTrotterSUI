@@ -67,11 +67,18 @@ struct ConversionView: View {
         }
     }
     
+    private func endEditing() {
+        UIApplication.shared.endEditing()
+    }
+    
     
     var body: some View {
 //        Color(red: 245/255, green: 244/255, blue: 241/255)
         Color(hex: 0xf5f4f1)
             .edgesIgnoringSafeArea(.all)
+            .onTapGesture {
+                self.endEditing()
+        }
             .overlay(
         VStack {
             TextField("value", text: validate())
@@ -121,5 +128,11 @@ extension Color {
             opacity: alpha
         )
         
+    }
+}
+
+extension UIApplication {
+    func endEditing() {
+        sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
     }
 }
