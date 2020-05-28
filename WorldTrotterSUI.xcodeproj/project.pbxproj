@@ -17,6 +17,7 @@
 		9A1F4DB5247F9453007C62CE /* ConversionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1F4DB4247F9453007C62CE /* ConversionView.swift */; };
 		9A1F4DB7247F9D70007C62CE /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1F4DB6247F9D70007C62CE /* MapView.swift */; };
 		9A1F4DB9247F9D7B007C62CE /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1F4DB8247F9D7B007C62CE /* Map.swift */; };
+		9A1F4DBB247F9E8E007C62CE /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1F4DBA247F9E8E007C62CE /* AppView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		9A1F4DB4247F9453007C62CE /* ConversionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionView.swift; sourceTree = "<group>"; };
 		9A1F4DB6247F9D70007C62CE /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		9A1F4DB8247F9D7B007C62CE /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		9A1F4DBA247F9E8E007C62CE /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				9A1F4D8C247F9424007C62CE /* Preview Content */,
 				9A1F4DB4247F9453007C62CE /* ConversionView.swift */,
 				9A1F4DB6247F9D70007C62CE /* MapView.swift */,
+				9A1F4DBA247F9E8E007C62CE /* AppView.swift */,
 				9A1F4DB8247F9D7B007C62CE /* Map.swift */,
 			);
 			path = WorldTrotterSUI;
@@ -275,6 +278,7 @@
 			files = (
 				9A1F4DB9247F9D7B007C62CE /* Map.swift in Sources */,
 				9A1F4DB5247F9453007C62CE /* ConversionView.swift in Sources */,
+				9A1F4DBB247F9E8E007C62CE /* AppView.swift in Sources */,
 				9A1F4DB7247F9D70007C62CE /* MapView.swift in Sources */,
 				9A1F4D85247F941D007C62CE /* AppDelegate.swift in Sources */,
 				9A1F4D87247F941D007C62CE /* SceneDelegate.swift in Sources */,
