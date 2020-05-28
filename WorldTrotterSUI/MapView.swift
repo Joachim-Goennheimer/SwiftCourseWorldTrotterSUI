@@ -9,8 +9,20 @@
 import SwiftUI
 
 struct MapView: View {
+    @State private var selectedMapType = 0
     var body: some View {
-        Map()
+        Map(mapType: $selectedMapType)
+            .overlay(
+                Picker("", selection: $selectedMapType) {
+                    Text("Standard").tag(0)
+                    Text("Hybrid").tag(1)
+                    Text("Satellite").tag(2)
+                }
+            .pickerStyle(SegmentedPickerStyle())
+            .padding(),
+            alignment: .top
+        
+        )
     }
 }
 
